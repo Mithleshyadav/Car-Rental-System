@@ -2,12 +2,12 @@ import React, {useEffect, useState} from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero';
 import About from "./components/About/About";
-import Services from './components/Services/Services';
+import Services from '../../Temporary-car/Services/Services';
 import CarList from './components/CarList/CarList';
-import Testimonial from './components/Testimonial/Testimonial';
+import Testimonial from '../../Temporary-car/Testimonial/Testimonial';
 import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
+import Contact from '../../Temporary-car/Contact/Contact';
+import Footer from '../../Temporary-car/Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
